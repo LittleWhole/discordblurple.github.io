@@ -14,7 +14,7 @@
     <span class="b noselect">E</span>
   </div>
 </div>
-  <audio autoplay loop>
+  <audio loop id="sudo">
   <source src="./discord.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
@@ -70,6 +70,7 @@ function clearSelection() {
         var sel = window.getSelection();
         sel.removeAllRanges();
     }
+  document.getElementById("sudo").play();
 }
     document.addEventListener('mousedown', function(e){ e.preventDefault(); }, false);
   </script>
