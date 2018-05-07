@@ -2,8 +2,6 @@
   font: 36px Arial, sans-serif;
         background: #7289DA;
   width: 100%;
-      color: white;
-  font-size: 144px;
 }
 body, html {
   height: 100%;
@@ -14,6 +12,8 @@ body, html {
   height: 100%;
 }
 #content {
+   color: white;
+  font-size: 144px;
   position: relative;
   float: left;
   top: 50%;
